@@ -13,14 +13,14 @@ class _ExpandwState extends State<Expandw> {
     return Scaffold(
       body: Column(
         children: [
-          Expanded(flex: 2,
+          Expanded(flex: 3,
             child: Container(
 
               width: 200,
               decoration: BoxDecoration(color: Colors.yellowAccent),
             ),
           ),
-          Expanded(flex: 2,
+          Expanded(flex: 3,
             child: Container(child: Row(
               children: [
                 CircleAvatar(radius: 50,backgroundColor: Colors.pink,),
